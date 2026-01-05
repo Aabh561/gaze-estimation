@@ -1,0 +1,27 @@
+[project]
+name = "gaze-estimation"
+version = "0.1.0"
+description = "Single-image head pose (gaze direction) estimator using OpenCV and MediaPipe"
+requires-python = ">=3.12"
+authors = [
+  { name = "Your Name" }
+]
+dependencies = [
+  "opencv-python",
+  "numpy",
+  "mediapipe==0.10.14",
+]
+
+[project.scripts]
+gaze-estimate = "gaze_estimator.cli:main"
+gaze-eval = "gaze_estimator.evaluate:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gaze_estimator"]

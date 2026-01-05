@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.uv/
+.idea/
+.vscode/
+*.log
+logs/
+overlays/
+WIN_*.jpg
+output_overlay.jpg
+.ipynb_checkpoints/

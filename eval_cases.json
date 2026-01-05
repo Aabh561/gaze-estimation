@@ -1,0 +1,6 @@
+[
+  { "image": "test_data/neutral_0deg.jpg",    "pitch_deg": 0.0,   "yaw_deg": 0.0 },
+  { "image": "test_data/yaw_left_15deg.jpg",  "pitch_deg": 0.0,   "yaw_deg": -15.0 },
+  { "image": "test_data/yaw_right_40deg.jpg", "pitch_deg": 0.0,   "yaw_deg": 40.0 },
+  { "image": "test_data/pitch_up_10deg.jpg",  "pitch_deg": -10.0, "yaw_deg": 0.0 }
+]
