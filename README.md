@@ -7,7 +7,7 @@ This project estimates head orientation (pitch, yaw, roll) from an image or webc
 ## What’s New
 
 - Landmark-based 3D pose via **MediaPipe FaceMesh + solvePnP**
-- Quality-aware overlay: 3D axes when full pose is available; arrow otherwise, color-coded by pose quality
+- Quality-aware overlay: 3D axes when full pose is available; arrow otherwise, color-coded by pose quality,
 - CLI upgrades: single image or **webcam mode**, method selection (`auto|mediapipe|heuristic|hybrid`)
 - Gaze zone classification (`CENTER/LEFT/RIGHT/UP/DOWN`) from pitch/yaw
 - Hybrid estimator that chooses between MediaPipe and heuristic based on reprojection error
